@@ -1,0 +1,56 @@
+2024-05-15:::12:07:44:::Iniciando ejecución Monitor
+2024-05-15:::12:07:51:::Fichero consolidado actualizado por FileProcessor Hilo 01 con 20 registros
+2024-05-15:::12:07:53:::01:::Registro fraude patrón 1:::Clave=FRAU001@15/05/2024 22:00:::Registros en la Misma Hora=6
+2024-05-15:::12:07:54:::03:::Registro fraude patrón 3:::Clave=FRAU003@15/05/2024:::Registros con Error=4
+2024-05-15:::12:07:54:::03:::Registro fraude patrón 3:::Clave=USER153@15/05/2024:::Registros con Error=4
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=FRAU005@15/05/2024:::Saldo negativo=-100
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=USER163@15/05/2024:::Saldo negativo=-202
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=USER100@15/05/2024:::Saldo negativo=-471
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=USER133@15/05/2024:::Saldo negativo=-134
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=USER146@15/05/2024:::Saldo negativo=-618
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=USER159@15/05/2024:::Saldo negativo=-451
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=USER169@15/05/2024:::Saldo negativo=-180
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=USER179@15/05/2024:::Saldo negativo=-421
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=USER156@15/05/2024:::Saldo negativo=-321
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=USER136@15/05/2024:::Saldo negativo=-876
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=USER166@15/05/2024:::Saldo negativo=-480
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=USER182@15/05/2024:::Saldo negativo=-399
+2024-05-15:::12:07:58:::05:::Registro fraude patrón 5:::Clave=USER113@15/05/2024:::Saldo negativo=-388
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER149@15/05/2024:::Saldo negativo=-214
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER142@15/05/2024:::Saldo negativo=-190
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER165@15/05/2024:::Saldo negativo=-185
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER162@15/05/2024:::Saldo negativo=-88
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER198@15/05/2024:::Saldo negativo=-205
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER109@15/05/2024:::Saldo negativo=-262
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER106@15/05/2024:::Saldo negativo=-162
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER119@15/05/2024:::Saldo negativo=-313
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER122@15/05/2024:::Saldo negativo=-4
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER145@15/05/2024:::Saldo negativo=-503
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER168@15/05/2024:::Saldo negativo=-215
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER129@15/05/2024:::Saldo negativo=-280
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER171@15/05/2024:::Saldo negativo=-377
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER181@15/05/2024:::Saldo negativo=-243
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER194@15/05/2024:::Saldo negativo=-283
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER112@15/05/2024:::Saldo negativo=-34
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER187@15/05/2024:::Saldo negativo=-290
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=FRAU003@15/05/2024:::Saldo negativo=-5
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER121@15/05/2024:::Saldo negativo=-409
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER141@15/05/2024:::Saldo negativo=-80
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER144@15/05/2024:::Saldo negativo=-777
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER177@15/05/2024:::Saldo negativo=-112
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER108@15/05/2024:::Saldo negativo=-668
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER170@15/05/2024:::Saldo negativo=-258
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER147@15/05/2024:::Saldo negativo=-67
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER157@15/05/2024:::Saldo negativo=-491
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER134@15/05/2024:::Saldo negativo=-511
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER150@15/05/2024:::Saldo negativo=-276
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER160@15/05/2024:::Saldo negativo=-531
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER173@15/05/2024:::Saldo negativo=-82
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER196@15/05/2024:::Saldo negativo=-966
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=FRAU002@15/05/2024:::Saldo negativo=-400
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER117@15/05/2024:::Saldo negativo=-656
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER140@15/05/2024:::Saldo negativo=-401
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER176@15/05/2024:::Saldo negativo=-416
+2024-05-15:::12:07:59:::05:::Registro fraude patrón 5:::Clave=USER199@15/05/2024:::Saldo negativo=-273
+2024-05-15:::12:08:01:::04:::Registro fraude patrón 4:::Clave=FRAU004@15/05/2024:::Registros con Todos los Tipos de Operaciones
+2024-05-15:::12:08:02:::02:::Registro fraude patrón 2:::Clave=FRAU002@15/05/2024 19:58:00:::Registros a la vez=4

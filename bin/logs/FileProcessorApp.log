@@ -1,0 +1,39 @@
+2024-05-15 12:07:47 - [GENERAL ] - file_processor: main: Iniciando ejecución FileProcessor
+2024-05-15 12:07:47 - [INFO    ] - file_processor:main: Semáforo /semaforo10 creado
+2024-05-15 12:07:47 - [INFO    ] - file_processor: crear_estructura_directorios: Ejecutando comando shell: ./create_folder_structure.sh
+2024-05-15 12:07:47 - [INFO    ] - shared_memory: Creada memoria compartida nombre /shared_memory10 fd 3
+2024-05-15 12:07:47 - [INFO    ] - shared_memory: Establecido tamaño memoria compartida
+2024-05-15 12:07:47 - [INFO    ] - shared_memory: Mapeada memoria compartida direccion 0x7fd07723a000 tamaño 2097152
+2024-05-15 12:07:47 - [INFO    ] - leer_memoria_compartida: Comprobando si existe archivo consolidado para leer en memoria compartida
+2024-05-15 12:07:47 - [INFO    ] - leer_memoria_compartida: Comenzando a leer archivo consolidado en memoria compartida
+2024-05-15 12:07:47 - [INFO    ] - leer_memoria_compartida: Terminado de leer archivo consolidado en memoria compartida
+2024-05-15 12:07:47 - [INFO    ] - file_processor: crear_hilos_observacion: Necesario crear 05 hilos de observación
+2024-05-15 12:07:47 - [INFO    ] - file_processor: crear_hilos_observacion: Creado hilo número 01
+2024-05-15 12:07:47 - [INFO    ] - file_processor: hilo_observador: Hilo observación 01: observando carpeta ../Datos/files_data/Sucursal001 patrón nombre: SU001
+2024-05-15 12:07:48 - [INFO    ] - file_processor: crear_hilos_observacion: Creado hilo número 02
+2024-05-15 12:07:48 - [INFO    ] - file_processor: hilo_observador: Hilo observación 02: observando carpeta ../Datos/files_data/Sucursal002 patrón nombre: SU002
+2024-05-15 12:07:49 - [INFO    ] - file_processor: crear_hilos_observacion: Creado hilo número 03
+2024-05-15 12:07:49 - [INFO    ] - file_processor: hilo_observador: Hilo observación 03: observando carpeta ../Datos/files_data/Sucursal003 patrón nombre: SU003
+2024-05-15 12:07:50 - [INFO    ] - file_processor: crear_hilos_observacion: Creado hilo número 04
+2024-05-15 12:07:50 - [INFO    ] - file_processor: hilo_observador: Hilo observación 04: observando carpeta ../Datos/files_data/Sucursal004 patrón nombre: SU004
+2024-05-15 12:07:51 - [INFO    ] - file_processor: crear_hilos_observacion: Creado hilo número 05
+2024-05-15 12:07:51 - [GENERAL ] - file_processor: hilo_observador: 01:::Iniciando proceso fichero SU001_OPE001_15052024_001.csv
+2024-05-15 12:07:51 - [INFO    ] - file_processor: hilo_observador: Hilo observación 05: observando carpeta ../Datos/files_data/Sucursal005 patrón nombre: SU005
+2024-05-15 12:07:51 - [INFO    ] - file_processor: hilo_observador: Hilo 01: esperando semáforo...
+2024-05-15 12:07:51 - [INFO    ] - hilo_observacion: Hilo 01: Moviendo de ../Datos/files_data/Sucursal001/SU001_OPE001_15052024_001.csv a ../Datos/files_data/Sucursal001/procesados001/SU001_OPE001_15052024_001.csv
+2024-05-15 12:07:51 - [INFO    ] - hilo_observacion: Hilo 01: Movido de ../Datos/files_data/Sucursal001/SU001_OPE001_15052024_001.csv a ../Datos/files_data/Sucursal001/procesados001/SU001_OPE001_15052024_001.csv
+2024-05-15 12:07:51 - [INFO    ] - hilo_observacion: Hilo 01: Copiando registros CSV de ../Datos/files_data/Sucursal001/procesados001/SU001_OPE001_15052024_001.csv a memoria compartida
+2024-05-15 12:07:51 - [INFO    ] - hilo_observacion: Hilo 01: Copiados registros CSV de ../Datos/files_data/Sucursal001/procesados001/SU001_OPE001_15052024_001.csv a memoria compartida
+2024-05-15 12:07:51 - [INFO    ] - hilo_observacion: Hilo 01: Escrito mensaje en pipe: Fichero consolidado actualizado por FileProcessor Hilo 01 con 20 registros
+2024-05-15 12:07:51 - [GENERAL ] - file_processor: hilo_observador: 01:::12:07:51:::12:07:51:::SU001_OPE001_15052024_001.csv:::20
+2024-05-15 12:07:51 - [INFO    ] - retardo: file_processor: hilo_observador: Hilo 01:  entrando en retardo simulado de 2 segundos
+2024-05-15 12:07:52 - [INFO    ] - file_processor: main: Entrando en ejecucion indefinida
+2024-05-15 12:07:53 - [INFO    ] - file_processor: hilo_observador: Hilo 01: liberado semáforo.
+2024-05-15 12:36:55 - [INFO    ] - file_processor: ctrlc_handler: Interrupción  2. Se ha pulsado CTRL-C
+2024-05-15 12:36:55 - [INFO    ] - shared_memory: Comenzando escritura de memoria compartida a fichero: consolidado.csv tamaño: 72908
+2024-05-15 12:36:55 - [INFO    ] - dump_shared_memory: Volcado de memoria compartida en el archivo consolidado realizado
+2024-05-15 12:36:55 - [INFO    ] - shared_memory: Desmapeada memoria compartida
+2024-05-15 12:36:55 - [INFO    ] - shared_memory: Cerrado el descriptor de archivo memoria compartida
+2024-05-15 12:36:55 - [INFO    ] - shared_memory: Eliminada memoria compartida
+2024-05-15 12:36:55 - [INFO    ] - file_processor: ctrlc_handler: Semáforo semaforo_consolidar_ficheros_entrada cerrado y borrado
+2024-05-15 12:36:55 - [INFO    ] - file_processor: ctrlc_handler: Proceso terminado

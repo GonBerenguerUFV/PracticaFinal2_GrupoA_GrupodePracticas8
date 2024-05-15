@@ -1,0 +1,192 @@
+2024-05-15 12:07:44 - [GENERAL ] - Monitor: main: Iniciando ejecución Monitor
+2024-05-15 12:07:44 - [INFO    ] - Monitor: main: Semáforo /semaforo10 creado
+2024-05-15 12:07:44 - [INFO    ] - Monitor:main: Semáforo semaforo_consolidar_ficheros_entrada creado
+2024-05-15 12:07:44 - [INFO    ] - Monitor: main: Creando pipe /tmp/pipe10
+2024-05-15 12:07:44 - [INFO    ] - Monitor: crea_hilos_patrones_fraude: Necesario crear 05 hilos de patrones de fraude
+2024-05-15 12:07:44 - [INFO    ] - Monitor: crea_hilos_patrones_fraude: Creado hilo de detección de patrón de fraude 01
+2024-05-15 12:07:44 - [INFO    ] - Monitor: crea_hilos_patrones_fraude: Creado hilo de detección de patrón de fraude 02
+2024-05-15 12:07:44 - [INFO    ] - Monitor: crea_hilos_patrones_fraude: Creado hilo de detección de patrón de fraude 03
+2024-05-15 12:07:44 - [INFO    ] - Monitor: crea_hilos_patrones_fraude: Creado hilo de detección de patrón de fraude 04
+2024-05-15 12:07:45 - [INFO    ] - Monitor: crea_hilos_patrones_fraude: Creado hilo de detección de patrón de fraude 05
+2024-05-15 12:07:45 - [INFO    ] - Monitor: crea_hilos_patrones_fraude: hilos de detección de patrones de fraude creados
+2024-05-15 12:07:45 - [INFO    ] - Monitor: main: Abriendo pipe /tmp/pipe10
+2024-05-15 12:07:51 - [INFO    ] - Monitor: main: Entrando en ejecucion indefinida
+2024-05-15 12:07:51 - [INFO    ] - Monitor: main: Recibido Fichero consolidado actualizado por FileProcessor Hilo 01 con 20 registros
+2024-05-15 12:07:51 - [GENERAL ] - Monitor: main: Fichero consolidado actualizado por FileProcessor Hilo 01 con 20 registros
+2024-05-15 12:07:51 - [INFO    ] - Monitor: hilo_patron_fraude_1: Hilo 01: se ha activado
+2024-05-15 12:07:51 - [INFO    ] - Monitor: hilo_patron_fraude_1: Hilo 01: solicitando acceso al semáforo
+2024-05-15 12:07:51 - [INFO    ] - Monitor: hilo_patron_fraude_3: Hilo 03: se ha activado
+2024-05-15 12:07:51 - [INFO    ] - Monitor: hilo_patron_fraude_3: Hilo 03: solicitando acceso al semáforo
+2024-05-15 12:07:51 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: se ha activado
+2024-05-15 12:07:51 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: solicitando acceso al semáforo
+2024-05-15 12:07:51 - [INFO    ] - Monitor: hilo_patron_fraude_4: Hilo 04: se ha activado
+2024-05-15 12:07:51 - [INFO    ] - Monitor: hilo_patron_fraude_4: Hilo 04: solicitando acceso al semáforo
+2024-05-15 12:07:51 - [INFO    ] - Monitor: hilo_patron_fraude_2: Hilo 02: se ha activado
+2024-05-15 12:07:51 - [INFO    ] - Monitor: hilo_patron_fraude_2: Hilo 02: solicitando acceso al semáforo
+2024-05-15 12:07:53 - [INFO    ] - Monitor: hilo_patron_fraude_1: Hilo 01: comenzando comprobación patrón fraude 1
+2024-05-15 12:07:53 - [INFO    ] - hilo_patron_fraude_1: Comenzando lectura de memoria compartida
+2024-05-15 12:07:53 - [INFO    ] - shared_memory: Obtenido acceso a la memoria compartida nombre /shared_memory10 fd 4
+2024-05-15 12:07:53 - [INFO    ] - shared_memory: Mapeada memoria compartida dirección 0x7ffbb7d26000 tamaño 2097152
+2024-05-15 12:07:53 - [INFO    ] - shared_memory: Desmapeada memoria compartida
+2024-05-15 12:07:53 - [INFO    ] - shared_memory: Cerrado el descriptor de archivo memoria compartida
+2024-05-15 12:07:53 - [INFO    ] - Monitor: hilo_patron_fraude_1: Terminada lectura de memoria compartida a diccionario
+2024-05-15 12:07:53 - [INFO    ] - Monitor: hilo_patron_fraude_1: Hilo 01: Registros que cumplen el patrón
+2024-05-15 12:07:53 - [INFO    ] - Monitor: hilo_patron_fraude_1: Hilo 01: Registro que cumple el patrón Clave: FRAU001@15/05/2024 22:00, Registros en la Misma Hora: 6
+2024-05-15 12:07:53 - [GENERAL ] - Monitor: hilo_patron_fraude_1: 01:::Registro fraude patrón 1:::Clave=FRAU001@15/05/2024 22:00:::Registros en la Misma Hora=6
+2024-05-15 12:07:53 - [INFO    ] - Monitor: hilo_patron_fraude_1: Hilo 01: Terminados registros que cumplen el patrón
+2024-05-15 12:07:53 - [INFO    ] - retardo: Monitor: hilo_patron_fraude_1: Hilo 01:  entrando en retardo simulado de 1 segundos
+2024-05-15 12:07:54 - [INFO    ] - Monitor: hilo_patron_fraude_1: Hilo 01: liberado semáforo.
+2024-05-15 12:07:54 - [INFO    ] - Monitor: hilo_patron_fraude_3: Hilo 03: comenzando comprobación patrón fraude 1
+2024-05-15 12:07:54 - [INFO    ] - hilo_patron_fraude_1: Comenzando lectura de memoria compartida
+2024-05-15 12:07:54 - [INFO    ] - shared_memory: Obtenido acceso a la memoria compartida nombre /shared_memory10 fd 4
+2024-05-15 12:07:54 - [INFO    ] - shared_memory: Mapeada memoria compartida dirección 0x7ffbb7d26000 tamaño 2097152
+2024-05-15 12:07:54 - [INFO    ] - shared_memory: Desmapeada memoria compartida
+2024-05-15 12:07:54 - [INFO    ] - shared_memory: Cerrado el descriptor de archivo memoria compartida
+2024-05-15 12:07:54 - [INFO    ] - Monitor: hilo_patron_fraude_3: Terminada lectura de memoria compartida a diccionario
+2024-05-15 12:07:54 - [INFO    ] - Monitor: hilo_patron_fraude_3: Hilo 03: Registros que cumplen el patrón
+2024-05-15 12:07:54 - [INFO    ] - Monitor: hilo_patron_fraude_3: Hilo 03: Registro que cumple el patrón Clave: FRAU003@15/05/2024, Registros con Error: 4
+2024-05-15 12:07:54 - [GENERAL ] - Monitor: hilo_patron_fraude_3: 03:::Registro fraude patrón 3:::Clave=FRAU003@15/05/2024:::Registros con Error=4
+2024-05-15 12:07:54 - [INFO    ] - Monitor: hilo_patron_fraude_3: Hilo 03: Registro que cumple el patrón Clave: USER153@15/05/2024, Registros con Error: 4
+2024-05-15 12:07:54 - [GENERAL ] - Monitor: hilo_patron_fraude_3: 03:::Registro fraude patrón 3:::Clave=USER153@15/05/2024:::Registros con Error=4
+2024-05-15 12:07:54 - [INFO    ] - Monitor: hilo_patron_fraude_3: Hilo 03: Terminados registros que cumplen el patrón
+2024-05-15 12:07:54 - [INFO    ] - retardo: Monitor: hilo_patron_fraude_3: Hilo 03:  entrando en retardo simulado de 4 segundos
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_3: Hilo 03: liberado semáforo.
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: comenzando comprobación patrón fraude 1
+2024-05-15 12:07:58 - [INFO    ] - hilo_patron_fraude_5: Comenzando lectura de memoria compartida
+2024-05-15 12:07:58 - [INFO    ] - shared_memory: Obtenido acceso a la memoria compartida nombre /shared_memory10 fd 4
+2024-05-15 12:07:58 - [INFO    ] - shared_memory: Mapeada memoria compartida dirección 0x7ffbb7d26000 tamaño 2097152
+2024-05-15 12:07:58 - [INFO    ] - shared_memory: Desmapeada memoria compartida
+2024-05-15 12:07:58 - [INFO    ] - shared_memory: Cerrado el descriptor de archivo memoria compartida
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Terminada lectura de memoria compartida a diccionario
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registros que cumplen el patrón
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: FRAU005@15/05/2024, Número Registros: -100
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=FRAU005@15/05/2024:::Saldo negativo=-100
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER163@15/05/2024, Número Registros: -202
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER163@15/05/2024:::Saldo negativo=-202
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER100@15/05/2024, Número Registros: -471
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER100@15/05/2024:::Saldo negativo=-471
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER133@15/05/2024, Número Registros: -134
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER133@15/05/2024:::Saldo negativo=-134
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER146@15/05/2024, Número Registros: -618
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER146@15/05/2024:::Saldo negativo=-618
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER159@15/05/2024, Número Registros: -451
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER159@15/05/2024:::Saldo negativo=-451
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER169@15/05/2024, Número Registros: -180
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER169@15/05/2024:::Saldo negativo=-180
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER179@15/05/2024, Número Registros: -421
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER179@15/05/2024:::Saldo negativo=-421
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER156@15/05/2024, Número Registros: -321
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER156@15/05/2024:::Saldo negativo=-321
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER136@15/05/2024, Número Registros: -876
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER136@15/05/2024:::Saldo negativo=-876
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER166@15/05/2024, Número Registros: -480
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER166@15/05/2024:::Saldo negativo=-480
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER182@15/05/2024, Número Registros: -399
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER182@15/05/2024:::Saldo negativo=-399
+2024-05-15 12:07:58 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER113@15/05/2024, Número Registros: -388
+2024-05-15 12:07:58 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER113@15/05/2024:::Saldo negativo=-388
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER149@15/05/2024, Número Registros: -214
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER149@15/05/2024:::Saldo negativo=-214
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER142@15/05/2024, Número Registros: -190
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER142@15/05/2024:::Saldo negativo=-190
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER165@15/05/2024, Número Registros: -185
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER165@15/05/2024:::Saldo negativo=-185
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER162@15/05/2024, Número Registros: -88
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER162@15/05/2024:::Saldo negativo=-88
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER198@15/05/2024, Número Registros: -205
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER198@15/05/2024:::Saldo negativo=-205
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER109@15/05/2024, Número Registros: -262
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER109@15/05/2024:::Saldo negativo=-262
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER106@15/05/2024, Número Registros: -162
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER106@15/05/2024:::Saldo negativo=-162
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER119@15/05/2024, Número Registros: -313
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER119@15/05/2024:::Saldo negativo=-313
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER122@15/05/2024, Número Registros: -4
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER122@15/05/2024:::Saldo negativo=-4
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER145@15/05/2024, Número Registros: -503
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER145@15/05/2024:::Saldo negativo=-503
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER168@15/05/2024, Número Registros: -215
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER168@15/05/2024:::Saldo negativo=-215
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER129@15/05/2024, Número Registros: -280
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER129@15/05/2024:::Saldo negativo=-280
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER171@15/05/2024, Número Registros: -377
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER171@15/05/2024:::Saldo negativo=-377
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER181@15/05/2024, Número Registros: -243
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER181@15/05/2024:::Saldo negativo=-243
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER194@15/05/2024, Número Registros: -283
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER194@15/05/2024:::Saldo negativo=-283
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER112@15/05/2024, Número Registros: -34
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER112@15/05/2024:::Saldo negativo=-34
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER187@15/05/2024, Número Registros: -290
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER187@15/05/2024:::Saldo negativo=-290
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: FRAU003@15/05/2024, Número Registros: -5
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=FRAU003@15/05/2024:::Saldo negativo=-5
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER121@15/05/2024, Número Registros: -409
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER121@15/05/2024:::Saldo negativo=-409
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER141@15/05/2024, Número Registros: -80
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER141@15/05/2024:::Saldo negativo=-80
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER144@15/05/2024, Número Registros: -777
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER144@15/05/2024:::Saldo negativo=-777
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER177@15/05/2024, Número Registros: -112
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER177@15/05/2024:::Saldo negativo=-112
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER108@15/05/2024, Número Registros: -668
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER108@15/05/2024:::Saldo negativo=-668
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER170@15/05/2024, Número Registros: -258
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER170@15/05/2024:::Saldo negativo=-258
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER147@15/05/2024, Número Registros: -67
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER147@15/05/2024:::Saldo negativo=-67
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER157@15/05/2024, Número Registros: -491
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER157@15/05/2024:::Saldo negativo=-491
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER134@15/05/2024, Número Registros: -511
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER134@15/05/2024:::Saldo negativo=-511
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER150@15/05/2024, Número Registros: -276
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER150@15/05/2024:::Saldo negativo=-276
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER160@15/05/2024, Número Registros: -531
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER160@15/05/2024:::Saldo negativo=-531
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER173@15/05/2024, Número Registros: -82
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER173@15/05/2024:::Saldo negativo=-82
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER196@15/05/2024, Número Registros: -966
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER196@15/05/2024:::Saldo negativo=-966
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: FRAU002@15/05/2024, Número Registros: -400
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=FRAU002@15/05/2024:::Saldo negativo=-400
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER117@15/05/2024, Número Registros: -656
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER117@15/05/2024:::Saldo negativo=-656
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER140@15/05/2024, Número Registros: -401
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER140@15/05/2024:::Saldo negativo=-401
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER176@15/05/2024, Número Registros: -416
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER176@15/05/2024:::Saldo negativo=-416
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Registro que cumple el patrón Clave: USER199@15/05/2024, Número Registros: -273
+2024-05-15 12:07:59 - [GENERAL ] - Monitor: hilo_patron_fraude_5: 05:::Registro fraude patrón 5:::Clave=USER199@15/05/2024:::Saldo negativo=-273
+2024-05-15 12:07:59 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: Terminados registros que cumplen el patrón
+2024-05-15 12:07:59 - [INFO    ] - retardo: Monitor: hilo_patron_fraude_5: Hilo 05:  entrando en retardo simulado de 2 segundos
+2024-05-15 12:08:01 - [INFO    ] - Monitor: hilo_patron_fraude_5: Hilo 05: liberado semáforo.
+2024-05-15 12:08:01 - [INFO    ] - Monitor: hilo_patron_fraude_4: Hilo 04: comenzando comprobación patrón fraude 1
+2024-05-15 12:08:01 - [INFO    ] - hilo_patron_fraude_4: Comenzando lectura de memoria compartida
+2024-05-15 12:08:01 - [INFO    ] - shared_memory: Obtenido acceso a la memoria compartida nombre /shared_memory10 fd 4
+2024-05-15 12:08:01 - [INFO    ] - shared_memory: Mapeada memoria compartida dirección 0x7ffbb7d26000 tamaño 2097152
+2024-05-15 12:08:01 - [INFO    ] - shared_memory: Desmapeada memoria compartida
+2024-05-15 12:08:01 - [INFO    ] - shared_memory: Cerrado el descriptor de archivo memoria compartida
+2024-05-15 12:08:01 - [INFO    ] - Monitor: hilo_patron_fraude_4: Terminada lectura de memoria compartida a diccionario
+2024-05-15 12:08:01 - [INFO    ] - Monitor: hilo_patron_fraude_4: Hilo 04: Registros que cumplen el patrón
+2024-05-15 12:08:01 - [INFO    ] - Monitor: hilo_patron_fraude_4: Hilo 04: Registro que cumple el patrón Clave: FRAU004@15/05/2024, Registros con Todos los Tipos de Operaciones
+2024-05-15 12:08:01 - [GENERAL ] - Monitor: hilo_patron_fraude_4: 04:::Registro fraude patrón 4:::Clave=FRAU004@15/05/2024:::Registros con Todos los Tipos de Operaciones
+2024-05-15 12:08:01 - [INFO    ] - Monitor: hilo_patron_fraude_4: Hilo 04: Terminados registros que cumplen el patrón
+2024-05-15 12:08:01 - [INFO    ] - retardo: Monitor: hilo_patron_fraude_4: Hilo 04:  entrando en retardo simulado de 1 segundos
+2024-05-15 12:08:02 - [INFO    ] - Monitor: hilo_patron_fraude_4: Hilo 04: liberado semáforo.
+2024-05-15 12:08:02 - [INFO    ] - Monitor: hilo_patron_fraude_2: Hilo 02: comenzando comprobación patrón fraude 1
+2024-05-15 12:08:02 - [INFO    ] - hilo_patron_fraude_2: Comenzando lectura de memoria compartida
+2024-05-15 12:08:02 - [INFO    ] - shared_memory: Obtenido acceso a la memoria compartida nombre /shared_memory10 fd 4
+2024-05-15 12:08:02 - [INFO    ] - shared_memory: Mapeada memoria compartida dirección 0x7ffbb7d26000 tamaño 2097152
+2024-05-15 12:08:02 - [INFO    ] - shared_memory: Desmapeada memoria compartida
+2024-05-15 12:08:02 - [INFO    ] - shared_memory: Cerrado el descriptor de archivo memoria compartida
+2024-05-15 12:08:02 - [INFO    ] - Monitor: hilo_patron_fraude_2: Terminada lectura de memoria compartida a diccionario
+2024-05-15 12:08:02 - [INFO    ] - Monitor: hilo_patron_fraude_2: Hilo 02: Registros que cumplen el patrón
+2024-05-15 12:08:02 - [INFO    ] - Monitor: hilo_patron_fraude_2: Hilo 02: Registro que cumple el patrón Clave: FRAU002@15/05/2024 19:58:00, Registros a la vez: 4
+2024-05-15 12:08:02 - [GENERAL ] - Monitor: hilo_patron_fraude_2: 02:::Registro fraude patrón 2:::Clave=FRAU002@15/05/2024 19:58:00:::Registros a la vez=4
+2024-05-15 12:08:02 - [INFO    ] - Monitor: hilo_patron_fraude_2: Hilo 02: Terminados registros que cumplen el patrón
+2024-05-15 12:08:02 - [INFO    ] - retardo: Monitor: hilo_patron_fraude_2: Hilo 02:  entrando en retardo simulado de 3 segundos
+2024-05-15 12:08:05 - [INFO    ] - Monitor: hilo_patron_fraude_2: Hilo 02: liberado semáforo.
+2024-05-15 12:36:54 - [INFO    ] - Monitor: ctrlc_handler: Interrupción  2. Se ha pulsado CTRL-C
+2024-05-15 12:36:54 - [INFO    ] - Monitor: ctrlc_handler: Semáforo semaforo_consolidar_ficheros_entrada cerrado
+2024-05-15 12:36:54 - [INFO    ] - Monitor: ctrlc_handler: pipe cerrado
+2024-05-15 12:36:54 - [INFO    ] - Monitor: ctrlc_handler: Proceso terminado
